@@ -7,7 +7,54 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">Hello World!</h1>
+<body class='bg-zinc-300'>
+    <div class="md:flex flex-row">
+        <img src="image.jpg" alt="leafy green" class="hidden lg:block h-screen">
+        <div class="container md:flex flex-col">
+            <div class="disclaimer bg-leaf-background py-5 text-neutral-100 lg:bg-wow lg:text-neutral-900">
+                <p class="text-grey-900 mx-5 p-5 mt-8 text-xl font-bold">This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up now to get started.</p>
+                <p class="text-grey-900 ml-5 p-5 mt-8 text-xl font-bold">You know you want to.</p>
+            </div>
+            <div class="form bg-neutral-100 py-5">
+                <h1 class="text-xl font-bold ml-10">Let's do this!</h1>
+                <form action="/my-from" method="post" class="flex my-4">
+                    <div class="left-form flex flex-col">
+                        <div class="form-row flex flex-col ml-5 p-5">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name" class="rounded">
+                        </div>
+                        <div class="form-row flex flex-col ml-5 p-5">
+                            <label for="email">EMAIL</label>
+                            <input type="text" id="email" name="email" class="rounded">
+                        </div>
+                        <div class="form-row flex flex-col ml-5 p-5">
+                            <label for="password">PASSWORD</label>
+                            <input type="text" id="password" name="password" class="rounded">
+                        </div>
+                    </div>
+                    <div class="left-form flex flex-col">
+                        <div class="form-row flex flex-col ml-5 p-5">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name" class="rounded">
+                        </div>
+                        <div class="form-row flex flex-col ml-5 p-5">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="text" id="phone-number" name="phone-number" class="rounded">
+                        </div>
+                        <div class="form-row flex flex-col ml-5 p-5">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="text" id="confirm-password" name="confirm-password" class="rounded">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="confirm">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="bg-forest text-xl text-white p-4">Submit</a>
+            </div>
+        </div> 
+    </div>
+
 </body>
 </html>
