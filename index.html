@@ -12,47 +12,47 @@
         <img src="image.jpg" alt="leafy green" class="hidden lg:block h-screen">
         <div class="w-screen md:flex flex-col">
             <div class="disclaimer bg-leaf-background py-5 text-neutral-100 lg:bg-wow lg:text-neutral-900">
-                <p class="text-grey-900 mx-5 p-5 mt-8 text-xl font-bold">This is not a real online service! You know you need something
+                <p class="text-grey-900 mx-5 p-5 mt-8 text-xl font-bold text-center lg:text-left">This is not a real online service! You know you need something
                     like this in your life to help you realize your deepest dreams.
                     Sign up now to get started.</p>
-                <p class="text-grey-900 ml-5 p-5 mt-8 text-xl font-bold">You know you want to.</p>
+                <p class="text-grey-900 ml-5 p-5 mt-8 text-xl font-bold text-center lg:text-left">You know you want to.</p>
             </div>
         
             <div class="form bg-neutral-100 py-5 shadow-2xl">
-                <h1 class="text-xl font-bold ml-10">Let's do this!</h1>
-                <form action="#" method="get" class="flex my-4">
+                <h1 class="text-xl font-bold text-center lg:text-left lg:ml-10">Let's do this!</h1>
+                <form action="#" method="get" class="flex flex-col lg:flex-row my-4">
                     <div class="left-form flex flex-col">
-                        <div class="form-row flex flex-col ml-5 p-5">
-                            <label for="first_name">FIRST NAME</label>
+                        <div class="form-row flex flex-col ml-5 p-5 mr-5">
+                            <label for="first_name" class="text-center md:text-left">FIRST NAME</label>
                             <input type="text" id="first_name" name="first_name" class="rounded" required>
                         </div>
-                        <div class="form-row flex flex-col ml-5 p-5">
-                            <label for="email">EMAIL</label>
+                        <div class="form-row flex flex-col ml-5 p-5 mr-5">
+                            <label for="email" class="text-center md:text-left">EMAIL</label>
                             <input type="email" id="email" name="email" class="rounded invalid:border-solid invalid:border-red-600" required>
                         </div>
-                        <div class="form-row flex flex-col ml-5 p-5">
-                            <label for="password">PASSWORD</label>
+                        <div class="form-row flex flex-col ml-5 p-5 mr-5">
+                            <label for="password" class="text-center md:text-left">PASSWORD</label>
                             <input  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" id="password" name="password" class="rounded" required title="You password must have 6 characters, one uppercase, one lowercase, and one number.">
                         </div>
                     </div>
                     <div class="left-form flex flex-col">
-                        <div class="form-row flex flex-col ml-5 p-5">
-                            <label for="last_name">LAST NAME</label>
+                        <div class="form-row flex flex-col ml-5 p-5 mr-5">
+                            <label for="last_name" class="text-center md:text-left">LAST NAME</label>
                             <input type="text" id="last_name" name="last_name" class="rounded" required>
                         </div>
-                        <div class="form-row flex flex-col ml-5 p-5">
-                            <label for="phone-number">PHONE NUMBER</label>
+                        <div class="form-row flex flex-col ml-5 p-5 mr-5">
+                            <label for="phone-number" class="text-center md:text-left">PHONE NUMBER</label>
                             <input type="text" id="phone-number" name="phone-number" class="rounded" required>
                         </div>
-                        <div class="form-row flex flex-col ml-5 p-5">
-                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <div class="form-row flex flex-col ml-5 p-5 mr-5">
+                            <label for="confirm-password" class="text-center md:text-left">CONFIRM PASSWORD</label>
                             <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" id="confirm-password" name="confirm-password" class="rounded" required>
                         </div>
                     </div>
                 </div>
-                <button type='submit' class="bg-forest text-xl text-white font-bold rounded px-4 py-2 mt-4 w-64 ml-10">Submit</button>
+                <button type='submit' class="bg-forest text-xl text-white font-bold rounded block px-4 py-2 mt-4 w-64 mx-auto lg:ml-10">Submit</button>
                 </form>
-                <p class="ml-10 mt-4">Already have an account? <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley' class='text-forest'>Log in</a></p>
+                <p class="mt-4 mb-8 text-center lg:text-left lg:ml-10">Already have an account? <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley' class='text-forest'>Log in</a></p>
             </div>
         </div> 
     </div>
